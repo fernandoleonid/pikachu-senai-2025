@@ -117,5 +117,19 @@ footer{
 
 /* MOBILE */
 @media (max-width: 480px) {
-
+    .descricao h2 {
+        font-size: 38px;
+    }
+    .descricao p {
+        display: none;
+    }
+    .sombra {
+        transform: translate(-50%,-230%);
+    }
+    .pikachu {
+        height: 50vh;
+    }
+    .container a {
+        width: 100%;
+    }
 }
